@@ -93,11 +93,12 @@ h1{
 
 .button {
     background-color: var(--principal-color);
-    border: 2px solid var(--color-black);
+    border: 2px solid black;
     color: var(--background-color);
     display: block;
     margin-top: 15px;
     font-size: 1rem;
+    font-weight: bold;
     padding: .75rem;
     max-width: 18rem;
     text-align: center;
@@ -125,15 +126,16 @@ h1{
 }
 
 .pimg{
-    width: 80%;
     display: flex;
+    width: 80%;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .pimg img{
-    width: 40%;
+    width: 50%;
+    margin: 0;
 }
 
 .paragrafos{
@@ -146,5 +148,5 @@ h1{
 .paragrafos p{
     font-size: 1.25rem;
     color: var(--principal-color);
-    margin-top: 40px;
+    margin-top: 20px;
 }
