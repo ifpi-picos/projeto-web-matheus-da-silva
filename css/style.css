@@ -301,3 +301,22 @@ a {
     font-style: italic;
     font-weight: bold;
 }
+
+/* Página 'Quem somos?'*/
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: var(--secondary-color);
+}
+
+.sobre img{
+    width: 20%;
+}
+
+.sobre h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
