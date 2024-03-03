@@ -270,12 +270,15 @@ textarea {
 }
 
 button {
-    background-color: #0DAA29;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    background-color: var(--principal-color);
+    border: 2px solid black;
+    color: var(--background-color);
+    font-size: 1rem;
+    padding: .75rem;
+    max-width: 18rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 button:hover {
