@@ -69,6 +69,7 @@ header img{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 80%;
 }
 
 h1{
@@ -318,4 +319,10 @@ a {
 .sobre h1{
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.sobre p{
+    font-size: 1.25rem;
+    color: var(--principal-color);
+    margin-top: 10px;
 }
