@@ -334,6 +334,22 @@ a {
 
 /* Responsividade */
 @media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .container{
+        justify-content: center;
+    }
+
+    .menu a{
+        font-size: 1rem;
+        margin: 0 12px;
+    }
     
     .elementos-p1{
         width: 100%;
@@ -348,14 +364,14 @@ a {
     }
 
     .texto-p1 p{
-        width: 85%;
+        width: 100%;
     }
 
-    .inicio img, .iniciante img{
+    header img, .inicio img, .iniciante img{
         display: none;
     }
 
-    .iniciante, .paragrafos-i, .pv{
+    .vantagens h1, h2, .iniciante, .paragrafos-i, .pv{
         text-align: center;
     }
 
@@ -367,13 +383,13 @@ a {
     .p2{
         align-items: center;
         justify-content: center;
-        padding: 25px;
         padding-bottom: 0;
     }
 
     .paragrafos-i p, .iniciante p{
         width: 100%;
         text-align: justify;
+        padding: 10px;
     }
 
     .vantagens, .vantagens p, .imgdesc, .imgdesc p{
@@ -381,7 +397,7 @@ a {
     }
 
     .pimg{
-        width: 90%;
+        width: 100%;
     }
 
     .v-icon{
