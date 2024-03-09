@@ -130,19 +130,17 @@ h1{
     display: flex;
     width: 80%;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .pimg img{
+    max-width: min-content;
+    padding: 10px;
     width: 50%;
 }
 
 .paragrafos-i{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: space-between;
 }
 
 .paragrafos p{
@@ -164,6 +162,7 @@ h1{
     font-size: 1.25rem;
     color: var(--principal-color);
     margin: 10px;
+    padding-right: 40px;
 }
 
 .paragrafos-v{
@@ -193,7 +192,7 @@ span{
 
 .v-icon{
     width: 10%;
-
+    margin-right: 15px;
 }
 
 footer {
