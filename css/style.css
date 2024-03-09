@@ -18,14 +18,14 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--background-color);
-  }
+}
 
 header {
-        display: flex;
-        flex-direction: row;
-        background-color: var(--background-color);
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-color);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header img{
@@ -128,12 +128,11 @@ h1{
 
 .pimg{
     display: flex;
-    width: 80%;
     flex-direction: row;
+    width: 80%;
 }
 
 .pimg img{
-    max-width: min-content;
     padding: 10px;
     width: 50%;
 }
@@ -158,11 +157,17 @@ h1{
     background-color: var(--secondary-color);
 }
 
+.pv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .vantagens p{
     font-size: 1.25rem;
     color: var(--principal-color);
     margin: 10px;
-    padding-right: 40px;
+    width: 80%;
 }
 
 .paragrafos-v{
@@ -221,7 +226,7 @@ footer h1 {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    width: 40%;
+    width: 35%;
 }
 
 .callact p{
@@ -324,4 +329,105 @@ a {
     font-size: 1.25rem;
     color: var(--principal-color);
     margin-top: 10px;
+}
+
+
+/* Responsividade */
+@media only screen and (max-width: 600px) {
+    
+    .elementos-p1{
+        width: 100%;
+    }
+
+    .texto-p1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto-p1 p{
+        width: 85%;
+    }
+
+    .inicio img, .iniciante img{
+        display: none;
+    }
+
+    .iniciante, .paragrafos-i, .pv{
+        text-align: center;
+    }
+
+    .iniciante{
+        justify-content: center;
+        align-content: center;
+    }
+
+    .p2{
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        padding-bottom: 0;
+    }
+
+    .paragrafos-i p, .iniciante p{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .vantagens, .vantagens p, .imgdesc, .imgdesc p{
+        width: 100%;
+    }
+
+    .pimg{
+        width: 90%;
+    }
+
+    .v-icon{
+        display: none;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .callact{
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .callact p{
+        font-size: 1.25rem;
+        color: var(--background-color);
+        margin-top: 20px;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .footer-form h2 {
+        margin-bottom: 10px;
+    }
+    .footer-form {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%; 
+    }
+
+    .copyright{
+        text-align: center;
+        align-items: center;
+        font-size: 0.75rem;
+    }
 }
