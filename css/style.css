@@ -405,7 +405,7 @@ a {
     background-color: var(--secondary-color);
 }
 
-.servicos p{
+.servicos p, .fatura p{
     font-size: 1.25rem;
     color: var(--principal-color);
     margin-top: 10px;
@@ -434,14 +434,16 @@ a {
     margin-bottom: 20px;
 }
 
-
-
-.franquia h2, .franquia h3{
+.franquia h2, .franquia h3, .servicos h2, .servicos h3{
     color: var(--principal-color);
     text-align: center;
 }
 
-.franquia h3{
+.servicos h2, .servicos h3{
+    color: var(--alternative-color);
+}
+
+.franquia h3, .servicos h3{
     margin-top: 20px;
 }
 
@@ -460,6 +462,14 @@ ul{
     margin-top: 5px;
     margin-left: 20px;
     color: var(--alternative-color);
+}
+
+.fatura-p{
+    font-size: 1.25rem;
+    color: var(--principal-color);
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
 }
 /* Responsividade */
 @media only screen and (max-width: 600px) {
