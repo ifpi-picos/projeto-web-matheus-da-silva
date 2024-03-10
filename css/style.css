@@ -353,7 +353,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
+    max-width: 450px;
     width: 100%;
     padding: 40px;
     border: 5px solid var(--alternative-color);
