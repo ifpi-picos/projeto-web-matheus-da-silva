@@ -520,6 +520,14 @@ a {
         justify-content: center;
     }
 
+    .story{
+        width: 90%;
+    }
+
+    .minds {
+        width: 95%;
+    }
+
     .staff h1{
         font-size: 1.8rem;
     }
