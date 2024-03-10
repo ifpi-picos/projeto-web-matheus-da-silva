@@ -133,7 +133,7 @@ h1{
 }
 
 .pimg img{
-    padding: 10px;
+    padding: 20px;
     width: 50%;
 }
 
@@ -307,13 +307,16 @@ a {
 }
 
 /* Página 'Quem somos?'*/
-.sobre{
+.sobre, .staff{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 30px;
     background-color: var(--secondary-color);
+}
+.staff{
+    background-color: var(--background-color);
 }
 
 .sobre img{
@@ -325,12 +328,67 @@ a {
     margin-bottom: 10px;
 }
 
-.sobre p{
+.sobre p, .staff p{
     font-size: 1.25rem;
     color: var(--principal-color);
     margin-top: 10px;
 }
 
+.story {
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.minds{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    border: 5px solid var(--alternative-color);
+    margin-top: 30px;
+    background-color: var(--secondary-color);
+}
+
+.profile h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--principal-color);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.profile h4{
+    color: var(--principal-color);
+    text-align: center;
+}
+
+.profile p{
+    
+}
+
+.profile img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
 
 /* Responsividade */
 @media only screen and (max-width: 600px) {
