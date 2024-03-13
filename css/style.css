@@ -499,6 +499,16 @@ ul{
     background-color: var(--secondary-color);
 }
 /* Responsividade */
+@media only screen and (max-width: 1400px){
+    .mind-info{
+        width: 80%;
+        text-align: center;
+    }
+
+    .minds{
+        gap: 40px;
+    }
+}
 @media only screen and (max-width: 960px){
     .container{
         justify-content: space-between;
@@ -606,6 +616,12 @@ ul{
     input[type="email"],
     textarea {
         width: 100%; 
+    }
+
+    .minds{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -725,13 +741,12 @@ ul{
     .copyright, .padrao{
         text-align: center;
         align-items: center;
-        font-size: 0.5rem;
+        font-size: 0.75rem;
     }
 
-    .minds{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .sobre h1{
+        text-align: center;
+        font-size: 1.7rem;
     }
 
     .story{
@@ -749,5 +764,42 @@ ul{
 
     .staff p{
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 515px){
+    .menu a{
+        font-size: 0.8rem;
+    }
+    .copyright, .padrao{
+        text-align: center;
+        align-items: center;
+        font-size: 0.65rem;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    .serviços, .propostas{
+        width: 90%;
+    }
+
+    .franquia{
+        padding: 20px;
+        align-items: center;
+    }
+
+    .franquia h2, .franquia h3{
+        font-size: 1rem;
+    }
+
+    .franquia p{
+        font-size: 0.9rem;
     }
 }
