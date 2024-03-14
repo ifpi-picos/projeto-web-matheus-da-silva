@@ -804,7 +804,7 @@ ul{
         font-size: 1rem;
     }
 
-    .franquia p{
+    .franquia p, .impressoras p{
         font-size: 0.9rem;
     }
 }
