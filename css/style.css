@@ -112,7 +112,7 @@ h1{
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    /*height: 100vh;*/
+    margin-bottom: 15px;
 }
 
 .iniciante h1{
@@ -560,7 +560,7 @@ ul{
     }
 
     .iniciante p{
-        width: 100%;
+        width: 90%;
     }
 
     .vantagens, .imgdesc, .imgdesc p{
